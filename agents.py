@@ -24,7 +24,7 @@ class Agents():
     def web_researcher(self):
         return Agent(
         role='Web Researcher',
-        goal='Find information on the internet about AI Companies',
+        goal='Research about company on the internet about AI Companies',
         backstory="""You have been expert at finding information about Companies on the internet.""",
         verbose=True,
         allow_delegation=False,
