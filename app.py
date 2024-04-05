@@ -2,7 +2,6 @@ import os
 from crewai import Agent, Task, Crew, Process
 from agents import Agents
 from tasks import Tasks
-import streamlit as st
 from pydantic import BaseModel, Field
 from fastapi import FastAPI
 
