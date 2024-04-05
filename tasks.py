@@ -27,6 +27,6 @@ class Tasks:
         return Task(
         description="""Using the report given by the Research Analyst, write a research paper on the company.
         Main Headers should be: Company's Team, Products and Services, Culture, Benefits of Working there, Financials, Recent News and Developments.""",
-        expected_output="Full blog post of at least 8 paragraphs with above mentioned headers.",
+        expected_output="A Plain text blog post of at least 8 paragraphs with above mentioned headers.",
         agent=agent
         )
