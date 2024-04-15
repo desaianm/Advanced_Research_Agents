@@ -25,7 +25,7 @@ class Tasks:
 
     def write(self,agent,text):
         return Task(
-        description=f""" Check the report by Research Analyst for company name: {text} and add more details to the report if required or ask for new report with guidelines. If satisfied,  Write a detailed research paper on the company.
+        description=f""" Check the report by Research Analyst for company name: {text}. Your Main Focus for report should be Team, Culture, Benefits for Employees and add more details to the report if required or ask for new report with guidelines. If satisfied,  Write a detailed research paper on the company.
         Main Headers should be: Company's Team, Products and Services, Culture, Benefits of Working there, Financials, Recent News and Developments.""",
         expected_output="A Plain text article of at least 8 paragraphs with above mentioned headers.",
         agent=agent
