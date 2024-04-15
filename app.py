@@ -46,7 +46,7 @@ def researchAgent(query: Query):
     query = query.query
     task0 = tasks.info_gather(web_agent,query)
     task1 = tasks.research(researcher, query)
-    task2 = tasks.write(writer)
+    task2 = tasks.write(writer,query)
     # Instantiate your crew with a sequential process
     crew = Crew(
     agents=[researcher, writer,web_agent],
