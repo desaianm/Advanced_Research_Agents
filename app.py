@@ -4,7 +4,6 @@ from agents import Agents
 from tasks import Tasks
 from pydantic import BaseModel, Field
 from fastapi import FastAPI
-import streamlit as st
 
 # set serper API key in environment variable SERPER_API_KEY
 
