@@ -17,7 +17,7 @@ class Agents():
         verbose=True,
         allow_delegation=True,
         tools=[search_tool,web_search,web_scrape],
-        max_iter=5
+        max_iter=10
         
         )
     
