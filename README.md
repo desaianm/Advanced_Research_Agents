@@ -88,6 +88,4 @@ Example Report Structure:
       "Programs": [
         "Google's 20% Time",
         ...
-content_copy
-Use code with caution.
-Json
+
