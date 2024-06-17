@@ -40,9 +40,7 @@ To research the company "Google", send a POST request to the `/` endpoint with t
 {
   "query": "Google"
 }
-content_copy
-Use code with caution.
-Markdown
+
 
 Output:
 
@@ -89,3 +87,4 @@ Example Report Structure:
         "Google's 20% Time",
         ...
 
+```
